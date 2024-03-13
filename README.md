@@ -55,7 +55,6 @@ Here is the list of this you must know how to use and also have it on your Local
 graph TD;
     OverallU[USERS] --> User(Username)
     OverallU --> Pass(Password)
-    OverallU --> Hin(Hint)
     OverallU --> Bala(Balance)
     User --> stk{USER STOCK DATA}
     stk --> stkName[Stocks]
@@ -75,4 +74,5 @@ Balance: 12300.32
 ## One Final Key Point to Note to
 - This project demonstrates greater efficiency when employing PHP and MySQL queries. However, as newcomers, we initially opted for the most familiar programming languages.
 - It's advisable to watch all the provided videos if you encounter any challenges while deciphering the code or if you intend to implement it in your own projects.
-- Additionally, it's beneficial to have some familiarity with CSS and JavaScript. Given that all the games are AI-based, you may need to delve into these technologies as well.
+- Additionally, it's beneficial to have some familiarity with CSS and JavaScript.
+- We are currently using the YahooFinance Stock Quote API in our project, but it is no longer supported. Therefore, any attempts to buy or sell within the project will not work. However, to resolve this issue, you will need to manually update the Yahoo Finance code in the Java sections to the API of your choice.
