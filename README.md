@@ -67,7 +67,6 @@ For example:
 ```
 Username: Jake102
 Password: Jakopple
-Hint: Jake + Apple
 Balance: 12300.32
 ```
 
