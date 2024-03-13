@@ -1,4 +1,4 @@
-# LIFE OF MONEY
+# Stock Simulator
 ## Project Description:
 Innovative Stock Market Trading and Skill-Building Application for Teens and Kids. Our concept is an interactive, dynamic application that combines fun and education in a special way. It is designed exclusively for the younger generation, providing teenagers and children with a secure and engaging platform to develop their stock market trading abilities while having fun with stimulating activities.
 
