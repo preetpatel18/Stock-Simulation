@@ -1,0 +1,482 @@
+ /* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p,
+	blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd,
+	q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+	fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr,
+	th, td, article, aside, canvas, details, figcaption, figure, footer,
+	header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+body {
+	line-height: 1;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup,
+	menu, nav, section {
+	display: block;
+}
+
+nav ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+
+a {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+	background-color: #ff9;
+	color: #000;
+	text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+	background-color: #ff9;
+	color: #000;
+	font-style: italic;
+	font-weight: bold;
+}
+
+del {
+	text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+	border-bottom: 1px dotted;
+	cursor: help;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* change border color to suit your needs */
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #cccccc;
+	margin: 1em 0;
+	padding: 0;
+}
+
+input, select {
+	vertical-align: middle;
+}
+
+/* MY CODE*/
+
+html {
+	height: 100%;
+}
+
+body {
+	min-height: 100%;
+	background-color: white;
+}
+
+.background {
+	background-size: cover;
+	height: calc(90vh - 13px);
+	width: 100vw;
+	overflow: hidden;
+}
+/*----------------------------------------------------------------------- NAVIGATION*/
+.navi {
+	width: 100%;
+	height: 65px;
+	background-color: white;
+	border-bottom: 2px solid;
+	border-image-slice: 1;
+	color:black;
+	font-size-adjust:0.71;
+}
+
+.navi ul {
+	text-align: right;
+}
+
+.navi ul li {
+	list-style: none;
+	display: inline-block;
+	line-height: 65px;
+	padding: 0 1%;
+}
+
+.navi ul li a {
+	padding: 10px 20px;
+	text-decoration: none;
+	font-size: 20px;
+	font-family:"roboto",sans-serif;
+	color: black;
+	border-color: black;
+	
+}
+.navi ul li p {
+	font-size: 20px;
+	font-family: "roboto",sans-serif;
+	color: black;
+}
+.navi ul li{
+	font-size: 14px;
+	font-family: "roboto",sans-serif;
+	color: black;
+}
+
+.navi ul li a:hover {
+	color:green;
+}
+
+
+.navi .index {
+	text-decoration: none;
+	position: absolute;
+	color: black;
+	font-size: 25px;
+	font-family: "roboto",sans-serif;
+	font-weight: bolder;
+	line-height: 65px;
+	padding: 0 1%;
+}
+
+.navi .return {
+	text-decoration: none;
+	color: black;
+	font-size: 32px;
+	font-family: "roboto",sans-serif;
+	font-weight: bolder;
+	text-align: center;
+	margin-left: 35%;
+	line-height: 65px;
+}
+/*----------------------------------------------------------------------- NAVIGATION END */
+/*----------------------------------------------------------------------- SIGN-IN */
+form{
+	color:black;
+	font-family: "roboto",sans-serif;
+
+}
+.signin {
+	position: absolute;
+    width: 100%;
+    min-height: calc(90vh - 13px);
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'roboto', sans-serif;
+}
+
+.heading{
+	text-transform:capitalize;
+	text-align: center;
+	color: black;
+	font-weight: 300;
+	font-size: 100px;
+	margin-bottom:50px;
+}
+.usName,
+.passWrd,
+.submit-btn{
+	width: 80%;
+  	height: 20px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    padding: 15px;
+    transition: 0.5s;
+}
+
+input::placeholder{
+	color:rgb(217,217,217);
+}
+.usName:focus, 
+.passWrd:focus{
+	background-color: white;
+	color:black;
+}
+.usName:focus::placeholder, 
+.passWrd:focus::placeholder{
+	color:black;
+}
+
+.submit-btn:hover{
+	cursor:pointer;
+	background-color:white;
+	color:black;
+}
+.submit-btn{
+	width: auto;
+	height: 35px;
+    padding: 0 20px;
+    margin: 50px auto 0;
+}
+
+.sub-Heading{
+font-size:20px;
+text-align:center;
+	color:black;
+}
+
+.link{
+	text-align:center;
+	text-transform: capitalize;
+	color: black;
+	margin:30px auto;
+	display:block;
+	font-weight: bolder;
+	text-decoration:none;
+}
+
+.link:hover{
+	cursor:  pointer;
+	color: white;
+}
+.signin .return {
+	position: relative;
+	top: 60%;
+}
+
+/*----------------------------------------------------------------------- SIGN-IN END*/
+
+
+.stocktransaction {
+	position: absolute;
+	left: 50%;
+	top: 60%;
+	transform: translate(-50%, -50%);
+	border-radius: 8px;
+	backdrop-filter: blur(20px);
+	background-color: rgba(68, 68, 68, 0.65);
+	box-shadow: 0 1px 12px rgba(0, 0, 0, 0.25);
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	line-height: 75px;
+	text-align: center;
+	height: 300px;
+	width: 500px;
+	font-family:'roboto', sans-serif;
+}
+
+.stocktransaction table {
+	width: 500px;
+}
+
+.stocktransaction .transaction th {
+	font-family: Arial;
+	font-size: 24px;
+}
+
+.stocktransaction .transaction p {
+	color: white;
+}
+
+/*--------------------------------------------------------------------------------------------------- home.jsp*/
+.options {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	line-height: 40px;
+	height: 200px;
+	width: 100vw;
+}
+
+.options ul {
+	list-style: none;
+}
+
+.options ul li {
+	display: inline-block;
+	padding: 100px 50px;
+	justify-content: center;
+}
+
+.options ul li a:hover {
+	cursor:pointer;
+	background-color:white;
+	color:black;
+}
+
+.options ul li a {
+	backdrop-filter: blur(20px);
+	background-color: rgba(68, 68, 68, 0.65);
+	box-shadow: 0 1px 12px rgba(0, 0, 0, 0.25);
+	border: 2px solid ;
+	border-radius: 15px;
+	line-height: 75px;
+	text-decoration: none;
+	font-size: 24px;
+	font-family: 'roboto', sans-serif;
+	color: white;
+	padding-top: 28px;
+	padding-bottom: 28px;
+	padding-right: 93px;
+	padding-left: 93px;
+}
+
+
+.signin-submit {
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+/*--------------------------------------------------------------------------------------------------- home.jsp END*/
+/*---------------------------------------------------------------------------- View Stocks*/
+.view-stock {
+	position: absolute;
+	width: calc(50vw - 4px);
+	height: calc(90vh - 3px);
+	font-size-adjust:0.71;
+}
+
+.view-stock h3 {
+	text-align: center;
+	font-family:'roboto', sans-serif;
+	padding-bottom: 20px;
+	padding-top: 15px;
+	position: sticky;
+	color:black;
+}
+
+.view-stock .Stocks {
+	height: calc(75vh - 3px);
+	font-family: 'roboto', sans-serif;
+	font-size: 15px;
+	overflow: hidden;
+}
+
+.view-stock table tr {
+	display: flex;
+	width: calc(50vw);
+	justify-content: space-around;
+}
+
+.view-stock .Title {
+	display: flex;
+	width: calc(50vw - 2px);
+	vertical-align: center;
+	color: black;
+	font-family: 'roboto', sans-serif;
+	font-size: 16px;
+}
+
+.view-stock .Title tr th {
+	display: flex;
+	width: 25%;
+	height: 5vh;
+	justify-content: center;
+	color:black;
+	border-bottom: 1px solid black;
+}
+
+.view-stock table tr td {
+	display: flex;
+	width: 25%;
+	justify-content: center;
+	line-height: 40px;
+}
+
+.profile {
+	width: 100vw;
+	height: calc(90vh - 3px);
+	overflow: hidden;
+}
+
+.view-stock table tr .small {
+	width: 15%;
+}
+
+.view-stock table tr .medium {
+	width: 20%;
+}
+
+.view-stock table tr .large {
+	width: 35%;
+}
+
+.view-stock table td+td {
+	border-left: 1px solid black;
+}
+
+.owned {
+	border-right: 2px solid black;
+}
+
+.history {
+	position: absolute;
+	left: 50vw;
+}
+.view-stock .scroll{
+	height: calc(75vh - 3px);
+	overflow: hidden;
+	overflow-y: scroll;
+}
+.view-stock .scroll::-webkit-scrollbar{
+	width: 10px;
+}
+.scroll::-webkit-scrollbar-track{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius:5px;
+}
+.scroll::-webkit-scrollbar-thumb{
+	border-radius:5px;
+	-webkit-box-shadow: inset 0 0 100px black;
+}
+
+
+/*---------------------------------------------------------------------------- View Stocks End*/
+.settings {
+	display: flex;
+	align-items: center;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.settings p a {
+	text-decoration: none;
+	color: white;
+	font-family: "Trebuchet MS";
+	padding: 10px;
+	line-height: 150px;
+	border: 2px solid red;
+	border-radius: 8px;
+}
+
+.settings p a:hover {
+	border-color: rgb(25, 195, 25);
+}

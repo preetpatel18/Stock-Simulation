@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Log In</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<nav class="navi">
+			<p class="index">Stock Trading Simulation</p>
+			<ul>
+				<li><a href="about.html">About</a></li>
+				<li><a href="signin.html">Sign Up</a></li>
+			</ul>
+		</nav>
+		<div class="signin">
+			<form action="login-info.jsp" method="post">
+				<h3 class="heading">Log In</h3>
+				<input type="text" name="user" autocomplete = "on" class="usName" placeholder="Username" required/>
+				<input type="Password" name="pass" autocomplete = "on" class="passWrd" placeholder="Password" required/>
+				<input class = "submit-btn" type="submit" name="submit" value="Log in" />
+				<a href="signin.html" class="link">Don't have an account? Sign Up</a>
+			</form>
+			<div>
+			</div>
+		</div>
+		<div class="background"><img alt="background" src="resources/beach.jpg"></div>
+	</body>
+</html>
